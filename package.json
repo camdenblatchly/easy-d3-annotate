@@ -1,6 +1,6 @@
 {
   "name": "@camdenblatchly/easy-d3-annotate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily add annotations to d3 SVG graphics",
   "main": "index.js",
   "scripts": {
