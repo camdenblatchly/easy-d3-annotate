@@ -11,7 +11,8 @@ To add `easy-d3-annotate` as a node module run `npm i @camdenblatchly/easy-d3-an
 
 Here is an example of an annotation definition:
 
-`let annotation = {
+```
+let annotation = {
     note: "Boston, MA", // Whatever you want your note to say. Accepts HTML.
     data: [ 
       // The coordinates of the annotation subject go first
@@ -34,6 +35,6 @@ Here is an example of an annotation definition:
     // Lines can either have linear or normal curves 
     curve_type: 'linear'
   }
-`      
+```    
 
 You can then add your annotation by running `svg.call(addAnnotation, annotation)` at the end of your script.
