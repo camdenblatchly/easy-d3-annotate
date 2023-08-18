@@ -32,8 +32,8 @@ let annotation = {
     arrow_offset: { x: 0, y: dot_radius * 1.5 }, 
     // Specify where the line should connect to the note
     line_start: 'top', 
-    // Lines can either have linear or normal curves 
-    curve_type: 'linear'
+    // Lines can either have linear (straight) or normal (swoopy) curves 
+    curve_type: 'normal'
   }
 ```    
 
